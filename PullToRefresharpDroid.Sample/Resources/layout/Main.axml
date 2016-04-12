@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MC.MvxRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    local:MvxBind="RefreshActivated RefreshActivated;LoadMore LoadMore;IsLoading IsLoading;Refreshing Refreshing">
+    <MvxListView
+        android:id="@+id/mcListView"
+        android:divider="@null"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        local:MvxBind="ItemsSource Items;ItemClick ItemClick"
+        local:MvxItemTemplate="@layout/listitem" />
+</MC.MvxRefreshLayout>

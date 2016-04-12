@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.0.0</version>
+    <title>Sino.MvvmCross.Droid.PullToRefresh</title>
+    <authors>y-z-f</authors>
+    <owners>sino</owners>
+    <licenseUrl>http://opensource.org/licenses/GPL-3.0</licenseUrl>
+    <projectUrl>http://www.sowl.cn</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>支持MvvmCross的下拉上拉组件</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>Xamarin Android MvvmCross</tags>
+  </metadata>
+</package>
