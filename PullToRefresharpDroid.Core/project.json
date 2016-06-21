@@ -1,7 +1,7 @@
 ﻿{
   "supports": {},
   "dependencies": {
-    "MvvmCross": "4.1.0",
+    "MvvmCross": "4.1.4",
     "MvvmCross.Plugin.Messenger": "4.1.0"
   },
   "frameworks": {

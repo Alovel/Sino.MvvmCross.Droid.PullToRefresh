@@ -28,7 +28,7 @@ namespace Sino.MvvmCross.Droid.Weight
         /// 下拉加载更多
         /// </summary>
         public event EventHandler LoadMoreNative;
-
+        
         public MvxRefreshLayout(Context context)
             : this(context, null) { }
 
